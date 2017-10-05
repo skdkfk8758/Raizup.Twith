@@ -81,8 +81,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        HTTPCookieStorage.restore()
-        
         loginButton.layer.cornerRadius = 5
         loginButton.clipsToBounds = true
         

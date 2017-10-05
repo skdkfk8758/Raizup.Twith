@@ -23,8 +23,6 @@ class IntroViewController: UIViewController {
         introButton.clipsToBounds = true
         
         defaults.string(forKey: "email")
-        
-//        print(defaults.string(forKey: "email"))
     }
     
     override func viewDidAppear(_ animated: Bool) {
